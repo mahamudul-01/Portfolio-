@@ -43,12 +43,102 @@ nav a{
 /* header related style  */
 .header{
     background-color: #fff8f3;
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+
 }
 .banner{
-    padding: 30px 30px 30px 150px;
+    padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 .profile-pic{
     width: 500px;
+    margin-bottom: -43px;
+    /* padding: 0; */
+}
+.banner-greeting{
+    font-size: 50px;
+    color: #474747;
+    margin-bottom: 0;
+    
+}
+.banner-title{
+    font-size: 85px;
+    font-weight: 700px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.banner-des{
+    color: #181818;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.banner-content{
+    max-width: 500px;
+
+}
+/* about section */
+.about{
+    padding:130px ;
+    background-color: #fff8f3;
+    border-radius: 10px;
+    margin: 130px 0px;
+}
+.section-title{
+    text-align: center;
+    color: #181818;
+    font-weight: 700;
+    font-size: 35px;
+
+    
+}
+.section-des{
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+}
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+
+}
+.about-info{
+    text-align: center;
+
+}
+.what-i-do{
+    padding: 30px 150px;
+}
+/* skill related style */
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+.skill-des{
+    color: #474747;
+    
+}
+.skill{
+    padding: 30px;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.062);
+
+}
+main section{
+    margin: 130px;
+}
+/* resume section style  */
+.resume-collum-title{
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+
 }
